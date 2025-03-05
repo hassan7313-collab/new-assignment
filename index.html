@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>admission-form</title>
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link rel="shortcut icon" href="data:image/png;base64,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" type="">
+  <body class="body">
+    <h1 style="text-align: center">Admission Form</h1>
+    <b>
+      <form>
+        <label for="name">Name:</label>
+        <br />
+        <input
+          type="text"
+          id="name"
+          placeholder="enter name"
+          maxlength="20"
+          required
+          class="form-inputs"
+        />
+
+        <br />
+        <br />
+
+        <lable for="email">Email:</lable>
+        <br />
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter Email"
+          maxlength="20"
+          required
+          class="form-inputs"
+        />
+        <br />
+        <br />
+        <label for="phone">Phone:</label>
+        <br />
+        <input
+          type="phone"
+          id="phone"
+          placeholder="Enter Phone Number"
+          maxlength="20"
+          required
+          class="form-inputs"
+        />
+        <br />
+        <br />
+        <input type="submit" value="Submit" class="sub" />
+        <br />
+        <br />
+        <input type="reset" value="Reset" class="reset" />
+      </form>
+    </b>
+  </body>
+</html>
